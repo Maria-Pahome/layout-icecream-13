@@ -283,7 +283,7 @@ main {
 }
 
 .coconut-snowball {
-    width: 370px;
+    width: 385px;
     height: 570px;
     background-color: #a76e63;
     position: absolute;
@@ -291,4 +291,8 @@ main {
     left: 350px;
     top:  250px;
     bottom: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

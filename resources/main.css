@@ -32,7 +32,7 @@ html, body {
     background-image: url(../assets/shutterstock_261107618.jpg);
 }
 
-.search-area {
+.search-area  {
     position: relative;
 }
 
@@ -64,7 +64,7 @@ html, body {
     justify-content: space-around;
 }
 
-.a-z-recipes-section, .choco-fugde-recipe {
+.a-z-recipes-section, .choco-fugde-recipe  {
     justify-content: space-between;
 }
 
@@ -86,13 +86,13 @@ html, body {
     padding-left: 40px;
     width: 500px;
     position: absolute;
-    top: 150px;
+    top: 140px;
 }
 
 .a-z-recipes-section {
     font-family: 'Merriweather', serif;
     color:#4f5666;
-    width: 70%;
+    width: 500px;
     margin-top: 60px;
 } 
 
@@ -119,9 +119,13 @@ html, body {
 }
 
 .icecream-three-cups {
+    width: 500px;
+    height: 450px;
     background-image: url(../assets/shutterstock_584691958.jpg);
-    background-position: top left;
-    width: 100%;
+    background-attachment: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center left;
 }
 
 nav {
@@ -133,7 +137,9 @@ nav {
 }
 
 nav a, .carrot-cake-wp, .choco-fugde-recipe, .raspberry-cake h1, 
-.raspberry-cake p, .raspberry-cake div, .carrots-cake-bites h1, .carrots-cake-bites div:nth-child(2) {
+.raspberry-cake p, .raspberry-cake div, .carrots-cake-bites h1,
+.carrots-cake-bites div:nth-child(2), 
+.pumpkin-oatmeal-text {
     font-family: 'Quicksand', sans-serif;
     color:#4f5666;
     text-decoration: none;
@@ -143,7 +149,6 @@ nav a, .carrot-cake-wp, .choco-fugde-recipe, .raspberry-cake h1,
 nav div {
     height: 40px;
     width: 40px;
-    background-color: whitesmoke;
 }
 
 main {
@@ -172,6 +177,10 @@ main {
     font-size: 15px;
 }
 
+.carrot-cake-wp h2:nth-child(1){
+    padding-top: 10px;
+}
+
 .carrot-cake-wp h4 {
     font-size: 10px;
     padding-top: 20px;
@@ -188,11 +197,11 @@ main {
     padding-top: 15px;
 }
 
-.choco-fugde-recipe h1, .carrots-cake-bites h1 {
+.choco-fugde-recipe h1, .carrots-cake-bites h1  {
     font-size: 25px;
 }
 
-.choco-fugde-recipe h5 {
+.choco-fugde-recipe h5, .pumpkin-oatmeal-text h5 {
     margin-top: 50px;
     font-size: 10px;
     letter-spacing: 2px;
@@ -291,6 +300,34 @@ main {
     left: 350px;
     top:  250px;
     bottom: 0;
+}
+
+.pumpkin-oatmeal-text {
+    height: 100%;
+    color: white;
+}
+
+.pumpkin-oatmeal-text div {
+    font-size: 30px;
+}
+
+.pumpkin-oatmeal-text h4 {
+    font-size: 18px;
+}
+
+.pumpkin-oatmeal-text div, .pumpkin-oatmeal-text h4, 
+.pumpkin-oatmeal-text h5 {
+    padding: 15px 20px 23px 25px;
+}
+
+.pumpkin-oatmeal-text h5{
+    font-size: 12px;
+}
+
+.cookies-wrapper {
+    width: 80%;
+    margin-bottom: 0;
+    height: 50px;
 }
 
 ::-webkit-scrollbar {
